@@ -1,0 +1,59 @@
+
+/* responsive */
+@media screen and (max-width: 768px){
+  .post{
+    height: 210px;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+
+  .header{
+    height: 0;
+  }
+
+  .header h1{
+    line-height: 50px;
+    font-size: 25px;
+  }
+
+  .menubar{
+    margin-bottom: 40px;
+    height: 50px;
+    justify-content: flex-end;
+  }
+
+  .fa-bars{
+    display: block;
+  }
+
+  .post{
+    height: 140px;
+    margin-bottom: 20px;
+  }
+
+  .post-content{
+    padding: 15px 15px 15px 5px;
+  }
+
+  .post-content h3{
+    font-size: 18px;
+  }
+  
+  .post-content p{
+    font-size: 12px;
+  }
+
+  .post:hover{
+    margin-bottom: 25px;
+  }
+
+  h2 a{
+    display: none;
+  }
+
+  time{
+    display: none;
+  }
+}
